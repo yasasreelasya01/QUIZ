@@ -1,0 +1,56 @@
+<html>
+    <head>
+        
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+    </head>
+    <body>
+        <center>
+        <div class="img">
+            <br>
+            <BR>
+            <BR><BR>
+            <h1 style="color:rgb(5, 44, 83);">WELCOME TO QUIZZYBEE<br><BR>LOGIN</h1>
+            <div class="form">
+                    <br>
+                    <BR>
+                <form id="login" class="frm">
+                    <div class="bee">
+<BR>
+                    <label for="user name"></label>
+                    <input type="text" class="fld" placeholder="User Name" name="user name" required>
+
+                    <label for="password"></label>
+                    <input type="password" class="fld" placeholder="Enter Password" name="password" required>
+                    <BR>
+                    <a href="index.html"><button type="button" class="sub" style="border-radius: 10px;">Log In</button></a>
+                    <BR>
+                    <p>Do not have an account?</p>
+                    <button onclick="window.location.href='logintry.html'" type="submit" class="sub" style="border-radius: 10px;">Register</button><br>
+                    <input type="checkbox" <p><a href="tac.html">terms and conditions</a></p>
+                
+                    </div>
+                </form>
+                
+            </div>
+            
+        </div>
+<p id="login"></p>
+<script>
+    var form= document.getElementById('sheetdb-form');
+    form.addEventListener("submit", e => {
+        e.preventDefault();
+        fetch(form.action, {
+            method : "POST",
+            body : new FormData(document.getElementById("sheetdb-form")),
+        }).then(
+            Response => Response.json()
+        ).then((HTMl) => {
+            function fun(){
+            window.open('index.html','_blank');}
+        });
+    });
+</script>
+    </body>
+</html>

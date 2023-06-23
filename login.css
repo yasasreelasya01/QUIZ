@@ -1,0 +1,131 @@
+.img{
+    height:100%;
+    width:100%;
+    background-image:url("loginpage1.png");
+    background-position:center;
+    background-size:100% 100%;
+    position:absolute;
+}
+.form{
+    width:380px;
+    height:450px;
+    position:right;
+    margin:6% auto;
+    padding:5px;
+    box-align:center;
+    border-radius: 5%;
+}
+.bee{
+    margin-top: 30px;
+}
+.button{
+    width:80px;
+    margin:35px auto;
+    position:relative;
+    box-shadow:0 0 20px 9px rgb(186, 186, 206) ;
+    border-radius: 30px;
+    box-align:center;
+}
+.cur{
+    padding:10px 30px;
+    cursor: pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+    position:relative;
+}
+#tay{
+    top:0;
+    left:0;
+    position:absolute;
+    width:110px;
+    height:100%;
+    background: linear-gradient(to right, rgb(134, 155, 229),#092188);
+    border-radius:30px;
+    transition:.5s;
+    box-align:center;
+}
+.icon{
+    margin:15px auto;
+    text-align:center;
+}
+.frm{
+    top:180px;
+    position:absolute;
+    width:280px;
+    transition:0.5s;
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+.fld{
+    width:100%;
+    padding:10px 0;
+    margin:5px 0;
+    border:0 0 0 1px solid #999;
+    outline:none;
+    background:transparent;
+}
+.sub{
+    width:84%;
+    padding:10px 30px;
+    cursor:pointer;
+    display: block;
+    margin:auto;
+    background:linear-gradient(to right,rgb(190, 190, 244),#a5a5fc);
+    border:0;
+    outline:none;
+}
+.che{
+    margin: 30px 10px 30px 40px;
+    }
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position:absolute;
+}
+.som{
+    background-image: url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
+    background-repeat: no-repeat ;
+    height:100%;
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    position:absolute;
+}
+.income{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color:rgb(64, 2, 72);
+    text-align: center;
+}
+textarea{
+    border: 4.5px inset rgb(16, 16, 67);
+    font-size: 30px;
+}
+.sub1{
+    width:14%;
+    padding:10px 30px;
+    cursor:pointer;
+    display: block;
+    background:linear-gradient(to right,rgb(10, 86, 116),#74aedd);
+    margin:auto;
+    border:2px inset black;
+    border-radius: 50px;
+    outline:none;
+    font-size: 17px;
+}
+.radius{
+    border-radius: 10px;
+}
+h1{
+    font-family:serif;
+}
+.instructions{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 150px;
+
+}
+

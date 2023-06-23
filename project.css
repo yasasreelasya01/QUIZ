@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(rgba(130, 173, 241, 0.3),rgba(0,0,0,0.3)), url("bgpic3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-attachment: fixed;
+   
+   
+}
+nav{
+    background: rgba(103, 156, 242, 0.447);
+    height: 80px;
+    width:100%;
+}
+label.logo{
+    color:rgb(30, 39, 67);
+    font-size: 25px;
+    margin-left: 60px;
+    padding: 0px 5px;
+    line-height: 80px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding:  15px 30px;
+    font-size: 18px;
+    transition: 1s;
+    border-radius: 5px;
+}
+ul li a:hover{
+    background-color:white; 
+    color: rgb(0, 0, 0);
+    transition: 1s ;
+}
+ul li a:active{
+    background-color:black;
+    border: 2px solid black ;
+    color: white;
+    cursor: pointer;
+}
+img{
+    height:400px;
+    width:400px;
+    border-radius: 3px;
+    transition: 0.5s;
+
+}
+.container{
+    display: flex;
+    
+    width:fit-content;
+   margin-left: 25px;
+   margin-top: 1px;
+}
+.card{
+    height: 300px;
+    width: 350px;
+    margin-top:50px;
+    box-shadow: 5px 5px 20px white;
+    overflow: hidden;
+    border-radius: 25px;
+    transition: 1s;
+    margin-left:155px;
+    margin-bottom:90px;
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    position: absolute;
+    bottom: 96px;
+    box-sizing: border-box;
+    background: rgba(27,27,27,.5);
+    color: white;
+    border-radius: 25px;
+    transition: 1s;
+    transition: 0.5s;
+}
+h1{
+    margin: 10px;
+    font-size: 30px;
+}
+.card:hover{
+    cursor: pointer;
+    height: 390px;
+    width: 390px;
+}
+p{
+    visibility: hidden;
+    opacity: 0;
+    font-size: 18px;
+}
+.card:hover .intro{
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.273);
+    bottom: 165px;
+    width: 390px;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.but{
+    visibility: hidden;
+    margin-left: 250px;
+    height: 35px;
+    width: 85px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 1px;
+}
+.card:hover .but{
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: 1s;
+}
+.card:hover .but:hover{
+    background-color: rgb(255, 249, 249);
+    color:rgb(0, 0, 0);
+}
+.card:hover .but:active{
+    opacity: 0.3;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+}
+   
+.sec2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(55, 54, 54, 0.568);
+    margin-bottom: 50px;
+} .sec3{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(55, 54, 54, 0.568);
+} .sec4{
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    background-color: rgba(55, 54, 54, 0.568);
+}
+
+.sec2 span{
+    font-size: 25px;
+    margin-left: 75px;
+}
+.sec3 span{
+    font-size: 35px;
+    margin-left: 75px;
+}
+.but1{
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    border: none;
+    margin-top: 50px;
+    margin-left: 550px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.form-group {
+    margin-bottom: 10px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input, .form-group textarea {
+    width: 43%;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    background-color: #bcb8b8;
+    
+  }
+  .form-group textarea {
+    height: 80px;
+    background-color: #bcb8b8;
+  }
+  .form-group button {
+    background-color: #000000;
+    color: #7a7676;
+    margin-left: 300px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .form-group button:hover {
+    background-color: #000000;
+  }
